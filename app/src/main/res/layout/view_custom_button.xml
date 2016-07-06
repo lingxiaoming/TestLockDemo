@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -16,14 +17,14 @@
             android:id="@+id/iv_option1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_attach_money_black_24dp" />
 
         <TextView
             android:id="@+id/tv_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="按钮1"
+            android:text="抢红包"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="12sp" />
     </LinearLayout>
@@ -40,14 +41,14 @@
             android:id="@+id/iv_option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_person_add_black_24dp" />
 
         <TextView
             android:id="@+id/tv_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="按钮1"
+            android:text="附近人"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="12sp" />
     </LinearLayout>
@@ -64,14 +65,14 @@
             android:id="@+id/iv_option3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_group_add_black_24dp" />
 
         <TextView
             android:id="@+id/tv_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="按钮1"
+            android:text="群组人"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="12sp" />
     </LinearLayout>
@@ -88,14 +89,14 @@
             android:id="@+id/iv_option4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_keyboard_arrow_down_black_24dp" />
 
         <TextView
             android:id="@+id/tv_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="按钮1"
+            android:text="更多"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="12sp" />
     </LinearLayout>

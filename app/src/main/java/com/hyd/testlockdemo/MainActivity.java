@@ -1,5 +1,6 @@
 package com.hyd.testlockdemo;
 
+import android.app.Dialog;
 import android.app.KeyguardManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -87,7 +88,35 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
-        showButtonNotify();
+        switch (view.getId()){
+            case R.id.btn_1:
+                showButtonNotify();
+                break;
+            case R.id.btn_2:
+                showDialog1();
+                break;
+            case R.id.btn_3:
+                showDialog2();
+                break;
+            case R.id.btn_4:
+                showDialog3();
+                break;
+        }
+    }
+
+    private void showDialog1() {
+        Dialog dialog = CommonDialog.getNoButtonDialog(this);
+        dialog.show();
+    }
+
+    private void showDialog2() {
+        Dialog dialog = CommonDialog.getOneButtonDialog(this);
+        dialog.show();
+    }
+
+    private void showDialog3() {
+        Dialog dialog = CommonDialog.getTwoButtonDialog(this);
+        dialog.show();
     }
 
     public NotificationManager mNotificationManager;

@@ -1,0 +1,35 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:top="40dp">
+        <shape>
+            <solid android:color="#ffffff" />
+            <corners
+                android:bottomLeftRadius="4dp"
+                android:bottomRightRadius="4dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+        </shape>
+    </item>
+
+    <item
+        android:width="80dp"
+        android:height="80dp"
+        android:gravity="center_horizontal">
+        <shape android:shape="oval">
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+    <item
+        android:width="80dp"
+        android:height="80dp"
+        android:gravity="center_horizontal"
+        android:left="10dp"
+        android:right="10dp" >
+        <bitmap android:src="@drawable/ic_money" />
+
+    </item>
+
+
+</layer-list>
+
